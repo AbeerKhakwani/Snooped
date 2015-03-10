@@ -17,18 +17,20 @@ class SnoopTranslatorTest extends PHPUnit_Framework_TestCase
         //Assert
         $this->assertEquals("zuzan", $result);
     }
-					//     function test_makeTitleCase_multipleWords()
-					// 	{
-					// 		//Arrange
-					// 		$test_TitleCaseGenerator = new TitleCaseGenerator;
-					// 	    $input ="hello to the world";
-					//
-					// 		//act
-					// 		$result= $test_TitleCaseGenerator->makeTitleCase($input);
-					//
-					// 		//Assert
-					// 		$this->assertEquals("Hello to the World",$result);
-					// 	}
-					//
+
+	function test_SnoopTranslator_withUppercase()
+	{
+		//Arrange
+		$test_SnoopTranslator = new SnoopTranslator;
+		$input = "Susan";
+
+		//Act
+		$result = $test_SnoopTranslator->translate($input);
+
+		//Assert
+		$this->assertEquals("Suzan", $result);
+	}
+
+
 
 }?>
