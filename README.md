@@ -7,11 +7,11 @@ Abeer Khakwani & Liz Beacham
 
 Date
 
-March 20, 2015
+March 9, 2015
 
 Description
 
-This assessment is to "create an app for a hair salon. The owner should be able to add a list of their stylists, and for each stylist, add clients who see that stylist. The stylists work independently, so each client only belongs to a single stylist."
+This assessment Takes a string and takes all the  s's in that string and if they  are not caps or first letters of words and turns them into z's
 
 Use and Editing
 
